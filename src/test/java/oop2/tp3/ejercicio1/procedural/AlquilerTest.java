@@ -1,4 +1,4 @@
-package oop2.tp3.ejercicio1;
+package oop2.tp3.ejercicio1.procedural;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -14,7 +14,7 @@ public class AlquilerTest {
     @BeforeEach
 
     public void incializarVariables(){
-        unLibro = new Libro("Programacion en Java", Libro.REGULARES);
+        unLibro = new Libro("Programacion en Java", 0);
         unaCopia = new CopiaLibro(unLibro);
         unCliente = new Cliente("Maria");
         alquilerProgrJava = new Alquiler(unaCopia, 3);

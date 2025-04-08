@@ -1,4 +1,4 @@
-package oop2.tp3.ejercicio1;
+package oop2.tp3.ejercicio1.procedural;
 
 public class Alquiler {
     private CopiaLibro copia;
