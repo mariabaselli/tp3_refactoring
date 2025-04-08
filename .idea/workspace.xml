@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b444b075-38ae-4003-b528-fc54548d8ed0" name="Changes" comment="Realizando ejercicio 1">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/polimorfico/Alquiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/polimorfico/Alquiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/polimorfico/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/polimorfico/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/polimorfico/CopiaLibro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/polimorfico/LanzamientoInfantil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/polimorfico/LanzamientoInfantil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/polimorfico/LanzamientoNuevo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/polimorfico/LanzamientoNuevo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/polimorfico/LanzamientoRegular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/polimorfico/LanzamientoRegular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/polimorfico/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/polimorfico/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/polimorfico/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/polimorfico/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/procedural/Alquiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/procedural/Alquiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/procedural/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/procedural/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio1/polimorfico/AlquilerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio1/polimorfico/AlquilerTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mariabaselli&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/enriquemolinari/oop2-refactoring.git&quot;,
+    &quot;accountId&quot;: &quot;0910ac46-8364-4472-a57c-5c97361fbe28&quot;
+  }
+}</component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2vNfOW05OTbU1P6ywE2IWpSs0Zx" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.oop2.tp3.ejercicio1.polimorfico.Main.executor": "Run",
+    "JUnit.AlquilerTest (1).executor": "Run",
+    "JUnit.AlquilerTest.executor": "Coverage",
+    "JUnit.AlquilerTest.puntosClientes.executor": "Debug",
+    "JUnit.AlquilerTest.verificarAspectosClientes.executor": "Run",
+    "JUnit.AlquilerTest.verificarCliente.executor": "Debug",
+    "JUnit.AlquilerTest.verificarDiasAlquiler.executor": "Run",
+    "JUnit.AlquilerTest.verificarLibro (1).executor": "Run",
+    "JUnit.AlquilerTest.verificarLibro.executor": "Run",
+    "JUnit.AlquilerTest.verificarLibroLanzamientoInfantil.executor": "Coverage",
+    "JUnit.AlquilerTest.verificarLibroNuevoLanzamiento.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Maria/Documents/universidad/2025/Objetos 2/Tp's/baselli_tp3/src/main/java/oop2/tp3/ejercicio1/polimorfico",
+    "rearrange.code.on.save": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "actions.on.save"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maria\Documents\universidad\2025\Objetos 2\Tp's\baselli_tp3\src\main\java\oop2\tp3\ejercicio1\polimorfico" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="oop2.tp3.ejercicio1.procedural" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="oop2.tp3.ejercicio1.polimorfico" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AlquilerTest (1)">
+    <configuration name="AlquilerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio1.procedural.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio1.procedural" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio1.procedural.AlquilerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlquilerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio1.polimorfico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio1.polimorfico" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio1.polimorfico.AlquilerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlquilerTest.puntosClientes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio1.polimorfico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio1.polimorfico" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio1.polimorfico.AlquilerTest" />
+      <option name="METHOD_NAME" value="puntosClientes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlquilerTest.verificarLibroLanzamientoInfantil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio1.polimorfico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio1.polimorfico" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio1.polimorfico.AlquilerTest" />
+      <option name="METHOD_NAME" value="verificarLibroLanzamientoInfantil" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlquilerTest.verificarLibroNuevoLanzamiento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio1.polimorfico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio1.polimorfico" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio1.polimorfico.AlquilerTest" />
+      <option name="METHOD_NAME" value="verificarLibroNuevoLanzamiento" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AlquilerTest (1)" />
+        <item itemvalue="JUnit.AlquilerTest" />
+        <item itemvalue="JUnit.AlquilerTest.puntosClientes" />
+        <item itemvalue="JUnit.AlquilerTest.verificarLibroLanzamientoInfantil" />
+        <item itemvalue="JUnit.AlquilerTest.verificarLibroNuevoLanzamiento" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b444b075-38ae-4003-b528-fc54548d8ed0" name="Changes" comment="" />
+      <created>1743990422454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743990422454</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Subo carpeta para empezar con el práctico">
+      <option name="closed" value="true" />
+      <created>1743992524321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743992524321</updated>
+    </task>
+    <task id="LOCAL-00002" summary="El test de Alquiler funciona.">
+      <option name="closed" value="true" />
+      <created>1744073161206</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744073161206</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Realizando ejercicio 1">
+      <option name="closed" value="true" />
+      <created>1744080666970</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744080666970</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Subo carpeta para empezar con el práctico" />
+    <MESSAGE value="El test de Alquiler funciona." />
+    <MESSAGE value="Realizando ejercicio 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Realizando ejercicio 1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/baselli_tp3$AlquilerTest_verificarLibroLanzamientoInfantil.ic" NAME="AlquilerTest.verificarLibroLanzamientoInfantil Coverage Results" MODIFIED="1744140763917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>oop2.tp3.ejercicio1.polimorfico.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/baselli_tp3$AlquilerTest.ic" NAME="AlquilerTest Coverage Results" MODIFIED="1744144180266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>oop2.tp3.ejercicio1.polimorfico.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/baselli_tp3$AlquilerTest__1_.ic" NAME="AlquilerTest (1) Coverage Results" MODIFIED="1744144293291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>oop2.tp3.ejercicio1.procedural.*</FILTER>
+    </SUITE>
+  </component>
+</project>

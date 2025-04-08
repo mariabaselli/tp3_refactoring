@@ -4,8 +4,8 @@ package oop2.tp3.ejercicio1.polimorfico;
 public class LanzamientoInfantil implements TipoLanzamiento {
     private int codigoPrecio;
 
-    public LanzamientoInfantil(int codigoPrecio) {
-        this.codigoPrecio = codigoPrecio;
+    public LanzamientoInfantil() {
+        this.codigoPrecio = 0;
     }
 
     @Override

@@ -1,19 +1,28 @@
 package oop2.tp3.ejercicio1.polimorfico;
 
 public class Alquiler {
-    private CopiaLibro copia;
+    Libro copiaLibro;
     private int diasAlquilados;
 
-    public Alquiler(CopiaLibro copia, int diasAlquilados) {
-        this.copia = copia;
+    public Alquiler(Libro libro, int diasAlquilados) {
+        this.copiaLibro = libro.copia();
         this.diasAlquilados = diasAlquilados;
     }
 
-    public int diasAlquilados() {
+    int diasAlquilados() {
         return this.diasAlquilados;
     }
 
-    public CopiaLibro copia() {
-        return this.copia;
+
+    double calcularCosto() {
+        return copiaLibro.informarValor(this);
+    }
+
+    boolean esNuevoLanzamiento() {
+        return copiaLibro.esNuevoLanzamiento();
+    }
+
+    boolean otorgaPuntosExtra() {
+        return esNuevoLanzamiento() && this.diasAlquilados() > 1;
     }
 }
