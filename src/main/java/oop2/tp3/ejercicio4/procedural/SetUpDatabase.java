@@ -1,4 +1,4 @@
-package oop2.tp3.ejercicio4;
+package oop2.tp3.ejercicio4.procedural;
 
 import org.jdbi.v3.core.Jdbi;
 

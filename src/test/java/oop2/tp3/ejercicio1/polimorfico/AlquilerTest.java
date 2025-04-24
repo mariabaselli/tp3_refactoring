@@ -29,7 +29,7 @@ public class AlquilerTest {
         var alquilerEspecial = new Alquiler(libroNuevoLanzamiento, 3);
         unCliente.alquilar(alquilerEspecial);
         assertEquals("Especial de cocina", libroNuevoLanzamiento.nombre());
-        assertEquals(9, unCliente.calcularDeuda(alquilerEspecial));
+        assertEquals(9, unCliente.calcularDeuda());
         assertEquals(2, unCliente.informarPuntos());
     }
 
@@ -38,8 +38,18 @@ public class AlquilerTest {
         var alquilerRegular = new Alquiler(unLibro, 3);
         unCliente.alquilar(alquilerRegular);
         assertEquals("Programacion en Java", unLibro.nombre());
-        var resultado = unCliente.calcularDeuda(alquilerProgrJava);
-        assertEquals(3.5, resultado);
+        var resultado = unCliente.calcularDeuda();
+        assertEquals(3.0, resultado);
+        assertEquals(1, unCliente.informarPuntos());
+    }
+
+    @Test
+    public void verificarOtroLibroLanzamientoRegular() {
+        var alquilerRegular = new Alquiler(unLibro, 1);
+        unCliente.alquilar(alquilerRegular);
+        assertEquals("Programacion en Java", unLibro.nombre());
+        var resultado = unCliente.calcularDeuda();
+        assertEquals(2.0, resultado);
         assertEquals(1, unCliente.informarPuntos());
     }
 
@@ -48,7 +58,15 @@ public class AlquilerTest {
         var alquilerInfantil = new Alquiler(libroInfantil, 3);
         unCliente.alquilar(alquilerInfantil);
         assertEquals("El Oso", libroInfantil.nombre());
-        assertEquals(1.0, unCliente.calcularDeuda(alquilerInfantil));
+        assertEquals(1.0, unCliente.calcularDeuda());
+        assertEquals(1, unCliente.informarPuntos());
+    }
+
+    @Test
+    public void verificarOtroLibroInfantil() {
+        var alquilerInfantil = new Alquiler(libroInfantil, 5);
+        unCliente.alquilar(alquilerInfantil);
+        assertEquals(4.0, unCliente.calcularDeuda());
         assertEquals(1, unCliente.informarPuntos());
     }
 
@@ -62,5 +80,14 @@ public class AlquilerTest {
 
     public void verificarPuntosClientesSinAlquiler() {
         assertEquals(0, unCliente.informarPuntos());
+    }
+
+    @Test
+    public void verificarNoPuntosExtrasPorDias() {
+        var alquilerEspecial = new Alquiler(libroNuevoLanzamiento, 1);
+        unCliente.alquilar(alquilerEspecial);
+        assertEquals("Especial de cocina", libroNuevoLanzamiento.nombre());
+        assertEquals(3, unCliente.calcularDeuda());
+        assertEquals(1, unCliente.informarPuntos());
     }
 }

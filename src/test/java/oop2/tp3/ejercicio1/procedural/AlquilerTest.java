@@ -13,7 +13,7 @@ public class AlquilerTest {
 
     @BeforeEach
 
-    public void incializarVariables(){
+    public void incializarVariables() {
         unLibro = new Libro("Programacion en Java", 0);
         unaCopia = new CopiaLibro(unLibro);
         unCliente = new Cliente("Maria");
@@ -31,13 +31,13 @@ public class AlquilerTest {
     @Test
     public void verificarAspectosClientes() {
         var resultado = unCliente.calcularDeudaYPuntosObtenidos();
-        assertEquals(3.5,resultado[0]);
+        assertEquals(3.5, resultado[0]);
         assertEquals(1, resultado[1]);
     }
 
     @Test
     public void verificarAlquiler() {
         assertEquals(3, alquilerProgrJava.diasAlquilados());
-          }
+    }
 
 }

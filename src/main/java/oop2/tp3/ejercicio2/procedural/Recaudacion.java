@@ -1,4 +1,4 @@
-package oop2.tp3.ejercicio2;
+package oop2.tp3.ejercicio2.procedural;
 
 import com.opencsv.CSVReader;
 

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Cliente {
-    private List<Alquiler> alquileres = new ArrayList<Alquiler>();
+    private List<Alquiler> alquileres = new ArrayList<>();
     private String name;
     private int puntosObtenidos;
 
@@ -15,22 +15,24 @@ public class Cliente {
 
     void alquilar(Alquiler rental) {
         alquileres.add(rental);
-        sumarPuntos();
-        if (rental.otorgaPuntosExtra()) {
-            sumarPuntos();
-        }
+        sumarPuntos(rental);
     }
 
-    void sumarPuntos() {
+    void sumarPuntos(Alquiler rental) {
         this.puntosObtenidos++;
+        this.puntosObtenidos += rental.otorgaPuntosExtra();
     }
 
     int informarPuntos() {
         return this.puntosObtenidos;
     }
 
-    double calcularDeuda(Alquiler rental) {
-        return rental.calcularCosto();
+    double calcularDeuda() {
+        double resultado = 0;
+        for (Alquiler alquiler : alquileres) {
+            resultado += alquiler.calcularCosto();
+        }
+        return resultado;
     }
 
 }

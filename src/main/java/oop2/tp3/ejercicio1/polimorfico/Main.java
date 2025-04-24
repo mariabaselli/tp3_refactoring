@@ -11,7 +11,7 @@ public class Main {
         Cliente yo = new Cliente("Javier");
         yo.alquilar(alquilerElTunel);
         yo.alquilar(alquilerAntesDelFin);
-        System.out.println(alquilerElTunel.calcularCosto());
+        System.out.println(yo.calcularDeuda());
         System.out.print("Direccion de memoria de la copia:" + alquilerElTunel.copiaLibro);
     }
 }

@@ -13,17 +13,15 @@ public class Libro {
         return nombre;
     }
 
-    public boolean esNuevoLanzamiento() {
-        return lanzamiento.nuevoLanzamiento(this);
-    }
-
     Libro copia() {
         return new Libro(this.nombre, this.lanzamiento);
     }
 
-    double informarValor(Alquiler alquiler) {
-        return this.lanzamiento.calcularCosto(alquiler);
+    double informarValor(int diasAlquilados) {
+        return this.lanzamiento.calcularCosto(diasAlquilados);
     }
 
-
+    public int otorgaPuntos() {
+        return lanzamiento.otorgarPuntos();
+    }
 }

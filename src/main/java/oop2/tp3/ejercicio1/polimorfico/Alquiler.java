@@ -15,14 +15,15 @@ public class Alquiler {
 
 
     double calcularCosto() {
-        return copiaLibro.informarValor(this);
+        return copiaLibro.informarValor(diasAlquilados);
     }
 
-    boolean esNuevoLanzamiento() {
-        return copiaLibro.esNuevoLanzamiento();
-    }
 
-    boolean otorgaPuntosExtra() {
-        return esNuevoLanzamiento() && this.diasAlquilados() > 1;
+    int otorgaPuntosExtra() {
+        var resultado = 0;
+        if (this.diasAlquilados() > 1) {
+            resultado = copiaLibro.otorgaPuntos();
+        }
+        return resultado;
     }
 }

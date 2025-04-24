@@ -1,6 +1,7 @@
-package oop2.tp3.ejercicio3;
+package oop2.tp3.ejercicio3.procedural;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 enum TipoDeGasto {
@@ -13,11 +14,18 @@ class Gasto {
 }
 
 public class ReporteDeGastos {
-    public void imprimir(List<Gasto> gastos) {
-        int total = 0;
-        int gastosDeComida = 0;
 
-        System.out.println("Expenses " + LocalDate.now());
+    private int total;
+    private int gastosDeComida;
+    private List<String> reporte;
+
+    public ReporteDeGastos() {
+        this.total = 0;
+        this.gastosDeComida = 0;
+        this.reporte = new ArrayList<>();
+    }
+
+    public String imprimir(List<Gasto> gastos, LocalDate now) {
 
         for (Gasto gasto : gastos) {
             if (gasto.tipoGasto == TipoDeGasto.CENA || gasto.tipoGasto == TipoDeGasto.DESAYUNO) {
@@ -40,12 +48,15 @@ public class ReporteDeGastos {
             String marcaExcesoComidas = gasto.tipoGasto == TipoDeGasto.CENA && gasto.monto > 5000
                     || gasto.tipoGasto == TipoDeGasto.DESAYUNO && gasto.monto > 1000 ? "X" : " ";
 
-            System.out.println(nombreGasto + "\t" + gasto.monto + "\t" + marcaExcesoComidas);
-
             total += gasto.monto;
+
+            reporte.add("Expenses " + now + "\n" + nombreGasto + ": " +
+                    gasto.monto + "\t" + marcaExcesoComidas + "\n" + "Gastos de comida: " +
+                    gastosDeComida + "\n" + "Total de gastos: " + total + "\n");
+
+
         }
 
-        System.out.println("Gastos de comida: " + gastosDeComida);
-        System.out.println("Total de gastos: " + total);
+        return reporte.toString();
     }
 }
