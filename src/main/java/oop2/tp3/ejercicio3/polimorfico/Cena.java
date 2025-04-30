@@ -1,7 +1,7 @@
 package oop2.tp3.ejercicio3.polimorfico;
 
 public class Cena implements Detalle_Gasto {
-    String nombreGasto;
+    private String nombreGasto;
 
     public Cena() {
         this.nombreGasto = "Cena";
@@ -9,17 +9,21 @@ public class Cena implements Detalle_Gasto {
 
     @Override
     public String obtenerNombre() {
-        return nombreGasto;
+        return this.nombreGasto;
     }
 
     @Override
-    public int obtenerGastoCena(int monto) {
+    public int obtenerMontoComida(int monto) {
         return monto;
     }
 
     @Override
-    public int obtenerGastoDesayuno(int monto) {
-        return 0;
+    public boolean excesoGastoCena(int monto) {
+        return monto > 5000;
     }
 
+    @Override
+    public boolean excesoGastoDesayuno(int monto) {
+        return false;
+    }
 }

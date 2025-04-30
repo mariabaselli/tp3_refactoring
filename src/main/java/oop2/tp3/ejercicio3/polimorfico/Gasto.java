@@ -9,20 +9,16 @@ class Gasto {
         this.monto = monto;
     }
 
-    int obtenerGasto() {
-        return monto;
-    }
-
-    int obtenerGastoCena() {
-        return tipoGasto.obtenerGastoCena(monto);
-    }
-
-    String obtenerNombre() {
+    public String obtenerNombre() {
         return tipoGasto.obtenerNombre();
     }
 
-    int obtenerGastoDesayuno() {
-        return tipoGasto.obtenerGastoDesayuno(monto);
+    public int obtenerMontoComida() {
+        return tipoGasto.obtenerMontoComida(this.monto);
     }
 
+    public boolean excesoGastoComida() {
+        return tipoGasto.excesoGastoCena(this.monto) || tipoGasto.excesoGastoDesayuno(this.monto);
+        
+    }
 }

@@ -8,7 +8,14 @@ public class EjemploDeUsoDelReporte {
         var g1 = new Gasto();
         g1.tipoGasto = TipoDeGasto.DESAYUNO;
         g1.monto = 1000;
+        var g2 = new Gasto();
+        g2.tipoGasto = TipoDeGasto.CENA;
+        g2.monto = 4500;
+        var g3 = new Gasto();
+        g3.tipoGasto = TipoDeGasto.ALQUILER_AUTO;
+        g3.monto = 650;
         var reporte = new ReporteDeGastos();
-        System.out.println(reporte.imprimir(List.of(g1), LocalDate.now()));
+        System.out.println(reporte.imprimir(List.of(g1, g2, g3), LocalDate.now()));
     }
+
 }

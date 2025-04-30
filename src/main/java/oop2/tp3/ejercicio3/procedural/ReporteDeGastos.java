@@ -1,7 +1,6 @@
 package oop2.tp3.ejercicio3.procedural;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 
 enum TipoDeGasto {
@@ -14,24 +13,18 @@ class Gasto {
 }
 
 public class ReporteDeGastos {
-
-    private int total;
-    private int gastosDeComida;
-    private List<String> reporte;
-
-    public ReporteDeGastos() {
-        this.total = 0;
-        this.gastosDeComida = 0;
-        this.reporte = new ArrayList<>();
-    }
-
     public String imprimir(List<Gasto> gastos, LocalDate now) {
+        int total = 0;
+        int gastosDeComida = 0;
+        String reporte = "";
+
+        reporte += "Expenses " + now + "\n";
 
         for (Gasto gasto : gastos) {
             if (gasto.tipoGasto == TipoDeGasto.CENA || gasto.tipoGasto == TipoDeGasto.DESAYUNO) {
                 gastosDeComida += gasto.monto;
             }
-
+//TODO El swich figura en amarillo al pasar el test, dice default 0 ¿Cómo cubro?
             String nombreGasto = "";
             switch (gasto.tipoGasto) {
                 case CENA:
@@ -48,15 +41,13 @@ public class ReporteDeGastos {
             String marcaExcesoComidas = gasto.tipoGasto == TipoDeGasto.CENA && gasto.monto > 5000
                     || gasto.tipoGasto == TipoDeGasto.DESAYUNO && gasto.monto > 1000 ? "X" : " ";
 
+            reporte += nombreGasto + "\t" + gasto.monto + "\t" + marcaExcesoComidas + "\n";
+
             total += gasto.monto;
-
-            reporte.add("Expenses " + now + "\n" + nombreGasto + ": " +
-                    gasto.monto + "\t" + marcaExcesoComidas + "\n" + "Gastos de comida: " +
-                    gastosDeComida + "\n" + "Total de gastos: " + total + "\n");
-
-
         }
 
-        return reporte.toString();
+        reporte += "Gastos de comida: " + gastosDeComida + "\n";
+        reporte += "Total de gastos: " + total + "\n";
+        return reporte;
     }
 }

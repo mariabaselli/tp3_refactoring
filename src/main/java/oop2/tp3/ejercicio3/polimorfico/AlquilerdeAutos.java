@@ -1,10 +1,11 @@
 package oop2.tp3.ejercicio3.polimorfico;
 
-public class Desayuno implements Detalle_Gasto {
+public class AlquilerdeAutos implements Detalle_Gasto {
+
     private String nombreGasto;
 
-    public Desayuno() {
-        this.nombreGasto = "Desayuno";
+    public AlquilerdeAutos() {
+        this.nombreGasto = "Alquiler de Autos";
     }
 
     @Override
@@ -14,7 +15,7 @@ public class Desayuno implements Detalle_Gasto {
 
     @Override
     public int obtenerMontoComida(int monto) {
-        return monto;
+        return 0;
     }
 
     @Override
@@ -24,6 +25,6 @@ public class Desayuno implements Detalle_Gasto {
 
     @Override
     public boolean excesoGastoDesayuno(int monto) {
-        return monto > 1000;
+        return false;
     }
 }

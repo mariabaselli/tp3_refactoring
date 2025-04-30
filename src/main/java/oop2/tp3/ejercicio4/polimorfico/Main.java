@@ -7,6 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+
         Jdbi jdbi = Jdbi.create("jdbc:hsqldb:mem;create=true");
 
         new SetUpDatabase(jdbi).setUp();
@@ -18,7 +19,7 @@ public class Main {
                 System.out.println(persona.nombre() + " " + persona.apellido());
             }
 
-            var persona = repo.buscarId(40L);
+            var persona = repo.buscarId(3L);
             System.out.println(persona.nombre() + " " + persona.apellido());
         } catch (RuntimeException e) {
             System.out.println(e.getMessage());
