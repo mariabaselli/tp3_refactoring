@@ -2,7 +2,7 @@ package oop2.tp3.ejercicio3.polimorfico;
 
 public interface Detalle_Gasto {
 
-    public String obtenerNombre();
+    String obtenerNombre();
 
     int obtenerMontoComida(int monto);
 

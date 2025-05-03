@@ -5,21 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b444b075-38ae-4003-b528-fc54548d8ed0" name="Changes" comment="Realizo de nuevo el ejercicio 3, dado que no coincidia el reporte.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/polimorfico/AlquilerdeAutos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/polimorfico/Detalle_Gasto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio4/polimorfico/TestPersona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio_tipo_parcial_procedural/ControladorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mem.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mem.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/polimorfico/Alquiler_Auto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/polimorfico/Cena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/polimorfico/Cena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/polimorfico/Desayuno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/polimorfico/Desayuno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/polimorfico/EjemploDeUsoDelReporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/polimorfico/EjemploDeUsoDelReporte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem.script" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/polimorfico/Detalle_Gasto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/polimorfico/Detalle_Gasto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/polimorfico/Gasto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/polimorfico/Gasto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/polimorfico/ReporteDeGastos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/polimorfico/ReporteDeGastos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/procedural/EjemploDeUsoDelReporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/procedural/EjemploDeUsoDelReporte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/procedural/ReporteDeGastos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/procedural/ReporteDeGastos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/polimorfico/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/polimorfico/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/polimorfico/PersonaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/polimorfico/PersonaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/polimorfico/SetUpDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/polimorfico/SetUpDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/polimorfico/Actuacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/polimorfico/Actuacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/polimorfico/Calculador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/polimorfico/Calculador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/polimorfico/Comedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/polimorfico/Comedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/polimorfico/Drama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/polimorfico/Drama.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio_tipo_parcial/polimorfico/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio_tipo_parcial/polimorfico/Controlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio_tipo_parcial/polimorfico/Juez.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio_tipo_parcial/polimorfico/Juez.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio_tipo_parcial/procedural/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio_tipo_parcial/procedural/Controlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio_tipo_parcial/procedural/Juez.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio_tipo_parcial/procedural/Juez.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio3/polimorfico/ReporteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio3/polimorfico/ReporteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio3/procedural/ReporteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio3/procedural/ReporteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio_tipo_parcial_polimorfico/ControladorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio_tipo_parcial_polimorfico/ControladorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,16 +99,21 @@
     "JUnit.AlquilerTest.verificarPuntosExtras.executor": "Run",
     "JUnit.CalculadorTest (1).executor": "Coverage",
     "JUnit.CalculadorTest.executor": "Run",
+    "JUnit.CalculadorTest.verificarActuacionEspectadoresMenorVeinte.executor": "Coverage",
     "JUnit.CalculadorTest.verificarActuacionMenorVeinte.executor": "Run",
     "JUnit.CalculadorTest.verificarEventoDesconocido.executor": "Run",
     "JUnit.CalculadorTest.verificarRepor2te.executor": "Run",
     "JUnit.CalculadorTest.verificarReporte (1).executor": "Run",
-    "JUnit.CalculadorTest.verificarReporte.executor": "Coverage",
+    "JUnit.CalculadorTest.verificarReporte.executor": "Run",
+    "JUnit.ControladorTest (1).executor": "Coverage",
+    "JUnit.ControladorTest.executor": "Coverage",
+    "JUnit.ControladorTest.test01 (1).executor": "Run",
+    "JUnit.ControladorTest.test01.executor": "Coverage",
     "JUnit.RecaudacionTest (1).executor": "Run",
     "JUnit.RecaudacionTest.executor": "Run",
     "JUnit.RecaudacionTest.testMultipleOptions.executor": "Run",
     "JUnit.RecaudacionTest.testWhereCorrectKeys.executor": "Run",
-    "JUnit.ReporteTest (1).executor": "Run",
+    "JUnit.ReporteTest (1).executor": "Coverage",
     "JUnit.ReporteTest.executor": "Coverage",
     "JUnit.ReporteTest.gastoCenaMayorCincoMil.executor": "Run",
     "JUnit.ReporteTest.gastoDesayunoMayorMil.executor": "Run",
@@ -124,7 +138,7 @@
     "project.structure.side.proportion": "0.0",
     "rearrange.code.on.save": "true",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -149,83 +163,100 @@
       <recent name="oop2.tp3.ejercicio1.procedural" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="oop2.tp3.ejercicio_tipo_parcial_polimorfico" />
+      <recent name="oop2.tp3.ejercicio_tipo_parcial_procedural" />
       <recent name="oop2.tp3.ejercicio3.polimorfico" />
       <recent name="oop2.tp3.ejercicio5.polimorfico" />
       <recent name="oop2.tp3.ejercicio2.polimorfico" />
-      <recent name="oop2.tp3.ejercicio1.polimorfico" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReporteTest (1)">
-    <configuration name="EjemploDeUsoDelReporte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio3.polimorfico.EjemploDeUsoDelReporte" />
+  <component name="RunManager" selected="JUnit.ControladorTest.test01 (1)">
+    <configuration name="CalculadorTest.verificarActuacionEspectadoresMenorVeinte" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop2-refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio3.polimorfico.*" />
+          <option name="PATTERN" value="oop2.tp3.ejercicio5.polimorfico.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReporteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop2-refactoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio3.procedural.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio3.procedural" />
-      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio3.procedural.ReporteTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReporteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop2-refactoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio3.polimorfico.Gasto" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio3.polimorfico" />
-      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio3.polimorfico.ReporteTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReporteTest.gastoCenaMayorCincoMil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop2-refactoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio3.procedural.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio3.procedural" />
-      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio3.procedural.ReporteTest" />
-      <option name="METHOD_NAME" value="gastoCenaMayorCincoMil" />
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio5.polimorfico" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio5.polimorfico.CalculadorTest" />
+      <option name="METHOD_NAME" value="verificarActuacionEspectadoresMenorVeinte" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReporteTest.gastoDesayunoMayorMil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ControladorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop2-refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio3.procedural.*" />
+          <option name="PATTERN" value="oop2.tp3.ejercicio_tipo_parcial_procedural.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio_tipo_parcial_procedural.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio_tipo_parcial_procedural" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio_tipo_parcial_procedural.ControladorTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControladorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio_tipo_parcial_polimorfico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio_tipo_parcial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio3.procedural" />
-      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio3.procedural.ReporteTest" />
-      <option name="METHOD_NAME" value="gastoDesayunoMayorMil" />
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio_tipo_parcial_polimorfico" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio_tipo_parcial_polimorfico.ControladorTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControladorTest.test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio_tipo_parcial_polimorfico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio_tipo_parcial_polimorfico" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio_tipo_parcial_polimorfico.ControladorTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControladorTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio_tipo_parcial_procedural.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio_tipo_parcial_procedural" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio_tipo_parcial_procedural.ControladorTest" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -233,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReporteTest (1)" />
-        <item itemvalue="Application.EjemploDeUsoDelReporte" />
-        <item itemvalue="JUnit.ReporteTest" />
-        <item itemvalue="JUnit.ReporteTest.gastoDesayunoMayorMil" />
-        <item itemvalue="JUnit.ReporteTest.gastoCenaMayorCincoMil" />
+        <item itemvalue="JUnit.ControladorTest.test01 (1)" />
+        <item itemvalue="JUnit.ControladorTest (1)" />
+        <item itemvalue="JUnit.ControladorTest" />
+        <item itemvalue="JUnit.CalculadorTest.verificarActuacionEspectadoresMenorVeinte" />
+        <item itemvalue="JUnit.ControladorTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745502946081</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Realizo de nuevo el ejercicio 3, dado que no coincidia el reporte.">
+      <option name="closed" value="true" />
+      <created>1746030769387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746030769387</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -303,14 +342,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="Realizo de nuevo el ejercicio 3, dado que no coincidia el reporte." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/baselli_tp3$ReporteTest__1_.ic" NAME="ReporteTest (1) Coverage Results" MODIFIED="1745155928974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/baselli_tp3$ReporteTest__1_.ic" NAME="ReporteTest (1) Coverage Results" MODIFIED="1746099334393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio3.polimorfico.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/baselli_tp3$RecaudacionTest__1_.ic" NAME="RecaudacionTest (1) Coverage Results" MODIFIED="1744454835875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio2.polimorfico.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/baselli_tp3$ControladorTest_test01.ic" NAME="ControladorTest.test01 Coverage Results" MODIFIED="1746229922791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>oop2.tp3.ejercicio_tipo_parcial_procedural.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/baselli_tp3$ReporteTest_verificarGastosCenaMayor5000.ic" NAME="ReporteTest.verificarGastosCenaMayor5000 Coverage Results" MODIFIED="1745153464794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio3.procedural.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/baselli_tp3$CalculadorTest_verificarActuacionEspectadoresMenorVeinte.ic" NAME="CalculadorTest.verificarActuacionEspectadoresMenorVeinte Coverage Results" MODIFIED="1746232869649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>oop2.tp3.ejercicio5.polimorfico.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/baselli_tp3$ReporteTest_verificarGastosDesayunoMayor1000.ic" NAME="ReporteTest.verificarGastosDesayunoMayor1000 Coverage Results" MODIFIED="1745153377041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio3.procedural.*</FILTER>
@@ -324,6 +369,9 @@
     <SUITE FILE_PATH="coverage/baselli_tp3$ReporteTest_verificarTiposGasto.ic" NAME="ReporteTest.verificarTiposGasto Coverage Results" MODIFIED="1746017903208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio3.procedural.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/baselli_tp3$ControladorTest__1_.ic" NAME="ControladorTest (1) Coverage Results" MODIFIED="1746232932425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>oop2.tp3.ejercicio_tipo_parcial_polimorfico.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/baselli_tp3$AlquilerTest__1_.ic" NAME="AlquilerTest (1) Coverage Results" MODIFIED="1744234229771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio1.procedural.*</FILTER>
     </SUITE>
@@ -333,7 +381,11 @@
     <SUITE FILE_PATH="coverage/baselli_tp3$CalculadorTest.ic" NAME="CalculadorTest Coverage Results" MODIFIED="1745342277706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio5.procedural.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/baselli_tp3$ReporteTest.ic" NAME="ReporteTest Coverage Results" MODIFIED="1746019473937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/baselli_tp3$ControladorTest.ic" NAME="ControladorTest Coverage Results" MODIFIED="1746233205545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>oop2.tp3.ejercicio_tipo_parcial_polimorfico.*</FILTER>
+      <FILTER>oop2.tp3.ejercicio_tipo_parcial.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/baselli_tp3$ReporteTest.ic" NAME="ReporteTest Coverage Results" MODIFIED="1746047915910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio3.procedural.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/baselli_tp3$AlquilerTest_verificarOtroLibroInfantil.ic" NAME="AlquilerTest.verificarOtroLibroInfantil Coverage Results" MODIFIED="1744419202910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
@@ -351,7 +403,7 @@
     <SUITE FILE_PATH="coverage/baselli_tp3$CalculadorTest_verificarActuacionMenorVeinte.ic" NAME="CalculadorTest.verificarActuacionMenorVeinte Coverage Results" MODIFIED="1745188764123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio5.procedural.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/baselli_tp3$CalculadorTest__1_.ic" NAME="CalculadorTest (1) Coverage Results" MODIFIED="1745352761017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/baselli_tp3$CalculadorTest__1_.ic" NAME="CalculadorTest (1) Coverage Results" MODIFIED="1746049849796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio5.polimorfico.*</FILTER>
     </SUITE>
   </component>

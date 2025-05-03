@@ -5,9 +5,12 @@ import org.jdbi.v3.core.Jdbi;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 public class PersonaRepository {
 
+    public static final String QUERY_PERSONA_BY_NOMBRE = "select nombre, apellido from persona where nombre like ?";
+    public static final String QUERY_PERSONA_BY_ID = "select nombre, apellido from persona where id_persona = ?";
     private Jdbi jdbi;
 
     public PersonaRepository(Jdbi jdbi) {
@@ -15,19 +18,15 @@ public class PersonaRepository {
     }
 
     /**
-     * Busca por nombre a parte
+     * Busca por nombre o parte
      */
     public List<Persona> buscarPorNombre(String nombreOParte) {
         return jdbi.withHandle(handle -> {
             var rs = handle
-                    .select("select nombre, apellido from persona where nombre like ?")
+                    .select(QUERY_PERSONA_BY_NOMBRE)
                     .bind(0, "%" + nombreOParte + "%").mapToMap(String.class).list();
 
             var personas = new ArrayList<Persona>();
-
-            if (rs.size() == 0) {
-                throw new RuntimeException("El nombre de la persona no existe en la bd");
-            }
 
             for (Map<String, String> map : rs) {
                 personas.add(new Persona(map.get("nombre"), map.get("apellido")));
@@ -44,19 +43,16 @@ public class PersonaRepository {
      * - null si el id no se encuentra en la BD
      * - la instancia de Persona encontrada
      */
-    public Persona buscarId(Long id) {
+    public Optional<Persona> buscarId(Long id) {
         return jdbi.withHandle(handle -> {
-
             var rs = handle
-                    .select("select nombre, apellido from persona where id_persona = ?")
+                    .select(QUERY_PERSONA_BY_ID)
                     .bind(0, id).mapToMap(String.class).list();
 
             if (rs.isEmpty()) {
-                throw new RuntimeException("No existe ID buscado. ");
+                return Optional.empty();
             }
-
-            return new Persona(rs.get(0).get("nombre"), rs.get(0).get("apellido"));
-
+            return Optional.of(new Persona(rs.get(0).get("nombre"), rs.get(0).get("apellido")));
         });
     }
 

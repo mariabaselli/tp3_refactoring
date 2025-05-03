@@ -19,16 +19,16 @@ public class Comedia extends Evento {
     @Override
     float informarPago(Actuacion actuacion) {
         float monto = 30000;
-        if (actuacion.numberoEspectadores() > 20) {
-            monto += 10000 + 500 * (actuacion.numberoEspectadores() - 20);
+        if (actuacion.numeroEspectadores() > 20) {
+            monto += 10000 + 500 * (actuacion.numeroEspectadores() - 20);
         }
-        monto += 300 * actuacion.numberoEspectadores();
+        monto += 300 * actuacion.numeroEspectadores();
         return monto;
     }
 
     @Override
     double informarCreditos(Actuacion actuacion) {
-        return Math.max(actuacion.numberoEspectadores() - 30, 0) + Math.floor(actuacion.numberoEspectadores() / 5);
+        return Math.max(actuacion.numeroEspectadores() - 30, 0) + Math.floor(actuacion.numeroEspectadores() / 5);
     }
 
 }

@@ -20,11 +20,12 @@ public class ReporteDeGastos {
 
         reporte += "Expenses " + now + "\n";
 
+
         for (Gasto gasto : gastos) {
             if (gasto.tipoGasto == TipoDeGasto.CENA || gasto.tipoGasto == TipoDeGasto.DESAYUNO) {
                 gastosDeComida += gasto.monto;
             }
-//TODO El swich figura en amarillo al pasar el test, dice default 0 ¿Cómo cubro?
+
             String nombreGasto = "";
             switch (gasto.tipoGasto) {
                 case CENA:

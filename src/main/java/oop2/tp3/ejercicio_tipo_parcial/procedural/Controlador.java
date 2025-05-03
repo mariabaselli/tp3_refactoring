@@ -5,6 +5,10 @@ import java.util.Collection;
 public class Controlador {
     private Collection<Juez> jueces;
 
+    public Controlador(Collection<Juez> jueces) {
+        this.jueces = jueces;
+    }
+
     public int calcularCausasTotales() {
         int cantidadCausas = 0;
         for (Juez juez : jueces) {

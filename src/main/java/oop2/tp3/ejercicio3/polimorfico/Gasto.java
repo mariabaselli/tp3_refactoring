@@ -1,8 +1,8 @@
 package oop2.tp3.ejercicio3.polimorfico;
 
 class Gasto {
-    Detalle_Gasto tipoGasto;
-    int monto;
+    private Detalle_Gasto tipoGasto;
+    private int monto;
 
     public Gasto(Detalle_Gasto tipoGasto, int monto) {
         this.tipoGasto = tipoGasto;
@@ -19,6 +19,10 @@ class Gasto {
 
     public boolean excesoGastoComida() {
         return tipoGasto.excesoGastoCena(this.monto) || tipoGasto.excesoGastoDesayuno(this.monto);
-        
+
+    }
+
+    public int obtenerGasto() {
+        return this.monto;
     }
 }

@@ -1,8 +1,7 @@
-package oop2.tp3.ejercicio_tipo_parcial_polimorfico;
-
-import oop2.tp3.ejercicio_tipo_parcial.polimorfico.Causa;
-import oop2.tp3.ejercicio_tipo_parcial.polimorfico.Controlador;
-import oop2.tp3.ejercicio_tipo_parcial.polimorfico.Juez;
+package oop2.tp3.ejercicio_tipo_parcial_procedural;
+import oop2.tp3.ejercicio_tipo_parcial.procedural.Causa;
+import oop2.tp3.ejercicio_tipo_parcial.procedural.Controlador;
+import oop2.tp3.ejercicio_tipo_parcial.procedural.Juez;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -20,7 +19,9 @@ public class ControladorTest {
         Juez j2 = new Juez("Ricardo", "Perez");
         j2.agregarCausa(c2);
         Controlador controlador = new Controlador(List.of(j1, j2));
+
         assertEquals(2, controlador.calcularCausasTotales());
+
 
     }
 }

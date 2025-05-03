@@ -7,7 +7,7 @@ public class Drama extends Evento {
 
     @Override
     double informarCreditos(Actuacion actuacion) {
-        return Math.max(actuacion.numberoEspectadores() - 30, 0);
+        return Math.max(actuacion.numeroEspectadores() - 30, 0);
     }
 
     @Override
@@ -24,8 +24,8 @@ public class Drama extends Evento {
     @Override
     float informarPago(Actuacion actuacion) {
         float monto = 40000;
-        if (actuacion.numberoEspectadores() > 30) {
-            monto += 1000 * (actuacion.numberoEspectadores() - 30);
+        if (actuacion.numeroEspectadores() > 30) {
+            monto += 1000 * (actuacion.numeroEspectadores() - 30);
         }
         return monto;
 
