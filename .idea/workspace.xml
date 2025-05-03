@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b444b075-38ae-4003-b528-fc54548d8ed0" name="Changes" comment="Realizo el test pendiente del tp de tipo parcial">
+    <list default="true" id="b444b075-38ae-4003-b528-fc54548d8ed0" name="Changes" comment="Subo validacion en constructor Juez">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio_tipo_parcial/polimorfico/Juez.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio_tipo_parcial/polimorfico/Juez.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio_tipo_parcial_polimorfico/ControladorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio_tipo_parcial_polimorfico/ControladorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/polimorfico/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/polimorfico/Evento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio5/polimorfico/CalculadorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio5/polimorfico/CalculadorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,9 @@
     &quot;accountId&quot;: &quot;0910ac46-8364-4472-a57c-5c97361fbe28&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://diff.txt" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -78,15 +81,16 @@
     "JUnit.AlquilerTest.verificarPuntosExtras.executor": "Run",
     "JUnit.CalculadorTest (1).executor": "Coverage",
     "JUnit.CalculadorTest.executor": "Run",
-    "JUnit.CalculadorTest.verificarActuacionEspectadoresMenorVeinte.executor": "Coverage",
+    "JUnit.CalculadorTest.verificarActuacionEspectadoresMenorVeinte.executor": "Run",
     "JUnit.CalculadorTest.verificarActuacionMenorVeinte.executor": "Run",
     "JUnit.CalculadorTest.verificarEventoDesconocido.executor": "Run",
+    "JUnit.CalculadorTest.verificarEventoSinNombre.executor": "Run",
     "JUnit.CalculadorTest.verificarRepor2te.executor": "Run",
     "JUnit.CalculadorTest.verificarReporte (1).executor": "Run",
     "JUnit.CalculadorTest.verificarReporte.executor": "Run",
     "JUnit.ControladorTest (1).executor": "Coverage",
     "JUnit.ControladorTest.executor": "Coverage",
-    "JUnit.ControladorTest.test002.executor": "Debug",
+    "JUnit.ControladorTest.test002.executor": "Coverage",
     "JUnit.ControladorTest.test01 (1).executor": "Run",
     "JUnit.ControladorTest.test01.executor": "Coverage",
     "JUnit.RecaudacionTest (1).executor": "Run",
@@ -150,7 +154,20 @@
       <recent name="oop2.tp3.ejercicio2.polimorfico" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ControladorTest.test002">
+  <component name="RunManager" selected="JUnit.CalculadorTest.verificarEventoSinNombre">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio5.polimorfico.Main" />
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio5.polimorfico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculadorTest.verificarActuacionEspectadoresMenorVeinte" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop2-refactoring" />
       <extension name="coverage">
@@ -167,45 +184,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControladorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadorTest.verificarEventoSinNombre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop2-refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio_tipo_parcial_procedural.*" />
+          <option name="PATTERN" value="oop2.tp3.ejercicio5.polimorfico.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-        <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio_tipo_parcial_procedural.*" />
-          <option name="ENABLED" value="false" />
-        </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio_tipo_parcial_procedural" />
-      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio_tipo_parcial_procedural.ControladorTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio5.polimorfico" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio5.polimorfico.CalculadorTest" />
+      <option name="METHOD_NAME" value="verificarEventoSinNombre" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControladorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadorTest.verificarReporte" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop2-refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio_tipo_parcial_polimorfico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-        <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio_tipo_parcial_polimorfico.*" />
+          <option name="PATTERN" value="oop2.tp3.ejercicio5.polimorfico.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio_tipo_parcial_polimorfico" />
-      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio_tipo_parcial_polimorfico.ControladorTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio5.polimorfico" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio5.polimorfico.CalculadorTest" />
+      <option name="METHOD_NAME" value="verificarReporte" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,29 +252,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControladorTest.test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop2-refactoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio_tipo_parcial_polimorfico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio_tipo_parcial_polimorfico" />
-      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio_tipo_parcial_polimorfico.ControladorTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ControladorTest.test002" />
-        <item itemvalue="JUnit.ControladorTest (1)" />
-        <item itemvalue="JUnit.ControladorTest.test01 (1)" />
-        <item itemvalue="JUnit.ControladorTest" />
+        <item itemvalue="JUnit.CalculadorTest.verificarEventoSinNombre" />
+        <item itemvalue="JUnit.CalculadorTest.verificarReporte" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CalculadorTest.verificarActuacionEspectadoresMenorVeinte" />
+        <item itemvalue="JUnit.ControladorTest.test002" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746234275620</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Subo validacion en constructor Juez">
+      <option name="closed" value="true" />
+      <created>1746270208871</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746270208871</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -348,7 +346,8 @@
     <MESSAGE value="Ejercicios 1 a 5 y tipoParcial" />
     <MESSAGE value="Realizo de nuevo el ejercicio 3, dado que no coincidia el reporte." />
     <MESSAGE value="Realizo el test pendiente del tp de tipo parcial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Realizo el test pendiente del tp de tipo parcial" />
+    <MESSAGE value="Subo validacion en constructor Juez" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subo validacion en constructor Juez" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/baselli_tp3$ReporteTest__1_.ic" NAME="ReporteTest (1) Coverage Results" MODIFIED="1746099334393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
@@ -386,6 +385,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/baselli_tp3$ReporteTest_verificarImpresionReporte.ic" NAME="ReporteTest.verificarImpresionReporte Coverage Results" MODIFIED="1745153256995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio3.procedural.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/baselli_tp3$ControladorTest_test002.ic" NAME="ControladorTest.test002 Coverage Results" MODIFIED="1746270163827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>oop2.tp3.ejercicio_tipo_parcial_polimorfico.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/baselli_tp3$CalculadorTest.ic" NAME="CalculadorTest Coverage Results" MODIFIED="1745342277706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>oop2.tp3.ejercicio5.procedural.*</FILTER>

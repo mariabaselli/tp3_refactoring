@@ -28,10 +28,12 @@ public class CalculadorTest {
                 Hamlet: 113000.0. Asientos: 103
                 El Perfume: 40000.0. Asientos: 8
                 Monto ganado: 309400.0
-                Créditos ganados: 232.0""";
-
+                Créditos ganados: 232.0
+                """;
+        //TODO preguntarle al profe porque no me toma el assertEquals
         assertLinesMatch(Arrays.asList(esperado.split("\\R")), Arrays.asList(resultado.split("\\R")));
     }
+
 
     @Test
     void verificarActuacionEspectadoresMenorVeinte() {
@@ -44,7 +46,7 @@ public class CalculadorTest {
                 Cantando en la playa: 32400.0. Asientos: 8
                 Monto ganado: 32400.0
                 Créditos ganados: 1.0""";
-
+        //TODO preguntarle al profe porque no me toma el assertEquals
         assertLinesMatch(Arrays.asList(esperado.split("\\R")), Arrays.asList(resultado.split("\\R")));
     }
 
@@ -55,6 +57,12 @@ public class CalculadorTest {
         List<Evento> eventos = List.of(new Comedia("Cantando en a playa"));
         Calculador calculador = new Calculador();
         Exception exception = assertThrows(RuntimeException.class, () -> calculador.reporte(unaFactura, eventos));
-        assertEquals("Tipo de evento no conocido", exception.getMessage());
+        assertEquals(Calculador.LABEL_EVENTO_DESCONOCIDO, exception.getMessage());
+    }
+
+    @Test
+    void verificarEventoSinNombre() {
+        Exception exception = assertThrows(RuntimeException.class, () -> new Comedia(""));
+        assertEquals(Evento.LABEL_NOMBRE_EVENTO, exception.getMessage());
     }
 }

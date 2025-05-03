@@ -1,10 +1,13 @@
 package oop2.tp3.ejercicio5.polimorfico;
 
 public abstract class Evento {
+    public static final String LABEL_NOMBRE_EVENTO = "El nombre del evento no puede estar vacio";
     private String nombre;
 
-
     public Evento(String nombreEvento) {
+        if (nombreEvento == null || nombreEvento.isBlank()) {
+            throw new RuntimeException(LABEL_NOMBRE_EVENTO);
+        }
         this.nombre = nombreEvento;
     }
 
