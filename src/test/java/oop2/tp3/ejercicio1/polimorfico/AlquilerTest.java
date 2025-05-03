@@ -4,6 +4,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class AlquilerTest {
     Libro unLibro;
@@ -75,6 +76,14 @@ public class AlquilerTest {
         assertEquals(3, alquilerProgrJava.diasAlquilados());
     }
 
+    @Test
+    public void verificarNombreVacio() {
+        String nombreLibro = null;
+        Exception e1 = assertThrows(RuntimeException.class, () -> new Cliente(""));
+        Exception e2 = assertThrows(RuntimeException.class, () -> new Libro(nombreLibro, new LanzamientoNuevo()));
+        assertEquals(Cliente.LABEL_NOMBRE_VACIO, e1.getMessage());
+        assertEquals(Libro.LABEL_NOMBRE_VACIO, e2.getMessage());
+    }
 
     @Test
 

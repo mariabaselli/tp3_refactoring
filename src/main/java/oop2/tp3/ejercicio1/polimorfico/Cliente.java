@@ -4,12 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Cliente {
+    public static final String LABEL_NOMBRE_VACIO = "El nombre no puede estar vacio";
     private List<Alquiler> alquileres = new ArrayList<>();
-    private String name;
+    private String nombre;
     private int puntosObtenidos;
 
     Cliente(String nombre) {
-        this.name = nombre;
+        this.nombre = nombre;
+        if (nombre == null || nombre.isBlank()) {
+            throw new RuntimeException(LABEL_NOMBRE_VACIO);
+        }
         this.puntosObtenidos = 0;
     }
 
